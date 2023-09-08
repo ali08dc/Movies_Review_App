@@ -151,7 +151,7 @@ main {
 .tag:hover {
   background-color: #164343;
   color: rgb(230, 230, 168);
-  transition: all 0.7s ease;
+  transition: all 0.6s ease;
 }
 .tag.clicked {
   background-color: #022f2f;
@@ -170,29 +170,13 @@ main {
   margin: 25px 30px;
 }
 
-.page {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 30px;
-  width: 70px;
-  background-color: #245c5c;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-.page:hover {
-  background-color: #164343;
-  color: rgb(230, 230, 168);
-  transition: all 0.7s ease;
-}
 #current {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 30px;
-  width: 30px;
-  background-color: #245c5c;
+  height: 35px;
+  width: 35px;
+  background-color: #183d3d;
   border-radius: 5px;
 }
 
@@ -201,13 +185,14 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 10px;
-  width: 10px;
+  background-color: #317d7d;
+  height: 35px;
+  width: 35px;
   border-radius: 5px;
 }
 .neighbours:hover {
-  color: rgb(232, 232, 109);
-  font-size: 25px;
+  background-color: #183d3d;
+  font-size: 18px;
   transition: all 0.5s ease;
 }
 
