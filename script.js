@@ -255,7 +255,7 @@ function openNav(movie) {
             let { name, key, site } = video;
             if (site == "YouTube") {
               details.push(
-                `<iframe width="800" height="500" src="https://www.youtube.com/embed/${key}" title="${name}" class = "embed hide" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`
+                `<iframe width="750" height="500" src="https://www.youtube.com/embed/${key}" title="${name}" class = "embed hide" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`
               );
               dots.push(`<span class="dot">${idx + 1}</span>`);
             }
